@@ -13,7 +13,7 @@ env:
 install:
   - source ./travis_tools.sh
   - get_python_environment $INSTALL_TYPE $VERSION $VENV
-
+   
 script:
   - source test_tools.sh
   - $PIP_CMD install nose
