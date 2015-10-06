@@ -18,7 +18,9 @@ install:
   - brew update
   - brew tap homebrew/science
   - brew install libsbml
-  - brew install libxml2-dev
+  - brew install libxml2
+  - brew install libz
+  - brew install libbz2
 
    
 script:
