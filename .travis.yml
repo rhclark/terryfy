@@ -27,5 +27,5 @@ script:
   - source test_tools.sh
   - $PIP_CMD install nose
   - nosetests test_travisparse.py
-  - c++ test_prog.cpp 
+  - c++ test_prog.cpp -lsbml -lzip -lxml2 
   - ./a.out test_file.xml  out.xml
