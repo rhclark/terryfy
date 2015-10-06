@@ -19,5 +19,5 @@ install:
 script:
   - source test_tools.sh
   - $PIP_CMD install nose
-  - $PIP_CMD install --user python-libsbml
+  - $PIP_CMD install --user  python-libsbml
   - nosetests test_travisparse.py
