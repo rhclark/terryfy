@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2" version="1" level="2">
+	<model id="aph00780" name="aph00780">
+		<listOfCompartments>
+			<compartment id="default" name="default" size="1.0" />
+			<compartment id="uVol" name="uVol" size="1.0" outside="default" />
+		</listOfCompartments>
+		<listOfSpecies>
+			<species id="E6_space_3_space_4_space_15" name="6.3.4.15" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="E2_space_8_space_1_space_6" name="2.8.1.6" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="E2_space_3_space_1_space_47" name="2.3.1.47" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="E6_space_3_space_3_space_3" name="6.3.3.3" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="E2_space_6_space_1_space_62" name="2.6.1.62" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="ATP" name="ATP" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="ADP" name="ADP" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Orthophosphate" name="Orthophosphate" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="CoA" name="CoA" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="CO2" name="CO2" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Pyrophosphate" name="Pyrophosphate" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="S_minus_Adenosyl_minus_L_minus_methionine" name="S-Adenosyl-L-methionine" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="AMP" name="AMP" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="L_minus_Alanine" name="L-Alanine" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="L_minus_Methionine" name="L-Methionine" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Sulfur" name="Sulfur" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Biotin" name="Biotin" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="_space_7_space_8_minus_Diaminononanoate" name="7,8-Diaminononanoate" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="_space_6_minus_Carboxyhexanoyl_minus_CoA" name="6-Carboxyhexanoyl-CoA" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="_space_8_minus_Amino_minus_7_minus_oxononanoate" name="8-Amino-7-oxononanoate" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Dethiobiotin" name="Dethiobiotin" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="S_minus_Adenosyl_minus_4_minus_methylthio_minus_2_minus_oxobutanoate" name="S-Adenosyl-4-methylthio-2-oxobutanoate" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="_space_5_space__minus_Deoxyadenosine" name="5'-Deoxyadenosine" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Biotinyl_minus_5_space__minus_AMP" name="Biotinyl-5'-AMP" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Apo_minus__space_carboxylase_space_" name="Apo-[carboxylase]" compartment="uVol" initialAmount="0.0">
+			</species>
+			<species id="Holo_minus__space_carboxylase_space_" name="Holo-[carboxylase]" compartment="uVol" initialAmount="0.0">
+			</species>
+		</listOfSpecies>
+		<listOfReactions>
+			<reaction id="R03231" name="R03231" reversible="false">
+				<listOfReactants>
+					<speciesReference species="S_minus_Adenosyl_minus_L_minus_methionine">
+					</speciesReference>
+					<speciesReference species="_space_8_minus_Amino_minus_7_minus_oxononanoate">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="_space_7_space_8_minus_Diaminononanoate">
+					</speciesReference>
+					<speciesReference species="S_minus_Adenosyl_minus_4_minus_methylthio_minus_2_minus_oxobutanoate">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E2_space_6_space_1_space_62"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R03210" name="R03210" reversible="false">
+				<listOfReactants>
+					<speciesReference species="L_minus_Alanine">
+					</speciesReference>
+					<speciesReference species="_space_6_minus_Carboxyhexanoyl_minus_CoA">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="CoA">
+					</speciesReference>
+					<speciesReference species="CO2">
+					</speciesReference>
+					<speciesReference species="_space_8_minus_Amino_minus_7_minus_oxononanoate">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E2_space_3_space_1_space_47"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R03182" name="R03182" reversible="false">
+				<listOfReactants>
+					<speciesReference species="ATP">
+					</speciesReference>
+					<speciesReference species="CO2">
+					</speciesReference>
+					<speciesReference species="_space_7_space_8_minus_Diaminononanoate">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="ADP">
+					</speciesReference>
+					<speciesReference species="Orthophosphate">
+					</speciesReference>
+					<speciesReference species="Dethiobiotin">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E6_space_3_space_3_space_3"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R01078" name="R01078" reversible="false">
+				<listOfReactants>
+					<speciesReference species="S_minus_Adenosyl_minus_L_minus_methionine">
+					</speciesReference>
+					<speciesReference species="Sulfur">
+					</speciesReference>
+					<speciesReference species="Dethiobiotin">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="L_minus_Methionine">
+					</speciesReference>
+					<speciesReference species="Biotin">
+					</speciesReference>
+					<speciesReference species="_space_5_space__minus_Deoxyadenosine">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E2_space_8_space_1_space_6"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R01074" name="R01074" reversible="false">
+				<listOfReactants>
+					<speciesReference species="ATP">
+					</speciesReference>
+					<speciesReference species="Biotin">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="Pyrophosphate">
+					</speciesReference>
+					<speciesReference species="Biotinyl_minus_5_space__minus_AMP">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E6_space_3_space_4_space_15"/>
+				</listOfModifiers>
+			</reaction>
+			<reaction id="R05145" name="R05145" reversible="false">
+				<listOfReactants>
+					<speciesReference species="Biotinyl_minus_5_space__minus_AMP">
+					</speciesReference>
+					<speciesReference species="Apo_minus__space_carboxylase_space_">
+					</speciesReference>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="AMP">
+					</speciesReference>
+					<speciesReference species="Holo_minus__space_carboxylase_space_">
+					</speciesReference>
+				</listOfProducts>
+				<listOfModifiers>
+					<modifierSpeciesReference species="E6_space_3_space_4_space_15"/>
+				</listOfModifiers>
+			</reaction>
+		</listOfReactions>
+	</model>
+</sbml>
