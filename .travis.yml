@@ -15,9 +15,12 @@ env:
 install:
   - source ./travis_tools.sh
   - get_python_environment $INSTALL_TYPE $VERSION $VENV
+  - brew update
+  - brew brew tap homebrew/science
+  - brew install libsbml
+
    
 script:
   - source test_tools.sh
   - $PIP_CMD install nose
-  - $PIP_CMD install --user  python-libsbml
   - nosetests test_travisparse.py
