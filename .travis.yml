@@ -16,7 +16,7 @@ install:
   - source ./travis_tools.sh
   - get_python_environment $INSTALL_TYPE $VERSION $VENV
   - brew update
-  - brew brew tap homebrew/science
+  - brew tap homebrew/science
   - brew install libsbml
 
    
