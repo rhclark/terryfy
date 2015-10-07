@@ -17,9 +17,9 @@ install:
   - get_python_environment $INSTALL_TYPE $VERSION $VENV
   - brew update
   - brew tap homebrew/science
-  - brew install libsbml
   - brew install libxml2
   - brew install libzip
+  - $PIP_CMD install libsbml
 
    
 script:
