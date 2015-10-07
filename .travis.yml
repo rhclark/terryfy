@@ -20,7 +20,7 @@ install:
   - brew tap homebrew/science
   - brew install libxml2
   - brew install libzip
-  - $PIP_CMD install libsbml
+  - brew install libsbml
 
    
 script:
