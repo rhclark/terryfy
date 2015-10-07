@@ -20,7 +20,6 @@ install:
   - brew install libsbml
   - brew install libxml2
   - brew install libzip
-  - brew install libbz2
 
    
 script:
