@@ -16,7 +16,7 @@ install:
 #  - source ./travis_tools.sh
 #  - get_python_environment $INSTALL_TYPE $VERSION $VENV
   - brew update
-  - brew update python
+  - brew install python
   - brew tap homebrew/science
   - brew install libxml2
   - brew install libzip
