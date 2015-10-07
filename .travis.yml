@@ -21,7 +21,7 @@ install:
   - brew install libxml2
   - brew install libzip
   - brew install libsbml
-  - brew doctor
+  - brew link --overwrite python
 
    
 script:
@@ -33,6 +33,7 @@ script:
   - head out.xml
   - /usr/local/bin/python test_prog.py  test_file.xml  outy.xml
   - which python
+  - echo $PATH  
   - echo $LDFLAGS  
   - echo $LD_LIBRARY_PATH
   - echo $DYLD_LIBRARY_PATH
