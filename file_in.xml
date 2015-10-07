@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2" version="1" level="2"><model id="abc00220" name="abc00220"><listOfCompartments><compartment id="default" name="default" size="1.0"/><compartment id="uVol" name="uVol" size="1.0" outside="default"/></listOfCompartments><listOfSpecies><species id="E2_space_7_space_2_space_8" name="2.7.2.8" compartment="uVol" initialAmount="0.0">
+			</species><species id="E2_space_7_space_2_space_11" name="2.7.2.11" compartment="uVol" initialAmount="0.0">
+			</species><species id="E2_space_3_space_1_space_1" name="2.3.1.1" compartment="uVol" initialAmount="0.0">
+			</species><species id="E2_space_6_space_1_space_11" name="2.6.1.11" compartment="uVol" initialAmount="0.0">
+			</species><species id="E3_space_5_space_1_space_14" name="3.5.1.14" compartment="uVol" initialAmount="0.0">
+			</species><species id="E2_space_3_space_1_space_35" name="2.3.1.35" compartment="uVol" initialAmount="0.0">
+			</species><species id="E2_space_3_space_1_space_57" name="2.3.1.57" compartment="uVol" initialAmount="0.0">
+			</species><species id="E2_space_1_space_3_space_3" name="2.1.3.3" compartment="uVol" initialAmount="0.0">
+			</species><species id="E1_space_2_space_1_space_3" name="1.2.1.3" compartment="uVol" initialAmount="0.0">
+			</species><species id="E6_space_3_space_4_space_5" name="6.3.4.5" compartment="uVol" initialAmount="0.0">
+			</species><species id="E1_space_2_space_1_space_19" name="1.2.1.19" compartment="uVol" initialAmount="0.0">
+			</species><species id="E3_space_4_space_13_space_3" name="3.4.13.3" compartment="uVol" initialAmount="0.0">
+			</species><species id="E4_space_3_space_2_space_1" name="4.3.2.1" compartment="uVol" initialAmount="0.0">
+			</species><species id="E1_space_4_space_3_space_6" name="1.4.3.6" compartment="uVol" initialAmount="0.0">
+			</species><species id="E3_space_5_space_1_space_5" name="3.5.1.5" compartment="uVol" initialAmount="0.0">
+			</species><species id="E3_space_5_space_1_space_54" name="3.5.1.54" compartment="uVol" initialAmount="0.0">
+			</species><species id="E1_space_2_space_1_space_38" name="1.2.1.38" compartment="uVol" initialAmount="0.0">
+			</species><species id="E1_space_2_space_1_space_41" name="1.2.1.41" compartment="uVol" initialAmount="0.0">
+			</species><species id="E3_space_5_space_1_space_4" name="3.5.1.4" compartment="uVol" initialAmount="0.0">
+			</species><species id="H2O" name="H2O" compartment="uVol" initialAmount="0.0">
+			</species><species id="ATP" name="ATP" compartment="uVol" initialAmount="0.0">
+			</species><species id="NAD_plus_" name="NAD+" compartment="uVol" initialAmount="0.0">
+			</species><species id="NADH" name="NADH" compartment="uVol" initialAmount="0.0">
+			</species><species id="NADPH" name="NADPH" compartment="uVol" initialAmount="0.0">
+			</species><species id="NADP_plus_" name="NADP+" compartment="uVol" initialAmount="0.0">
+			</species><species id="Oxygen" name="Oxygen" compartment="uVol" initialAmount="0.0">
+			</species><species id="ADP" name="ADP" compartment="uVol" initialAmount="0.0">
+			</species><species id="Orthophosphate" name="Orthophosphate" compartment="uVol" initialAmount="0.0">
+			</species><species id="CoA" name="CoA" compartment="uVol" initialAmount="0.0">
+			</species><species id="CO2" name="CO2" compartment="uVol" initialAmount="0.0">
+			</species><species id="Pyrophosphate" name="Pyrophosphate" compartment="uVol" initialAmount="0.0">
+			</species><species id="NH3" name="NH3" compartment="uVol" initialAmount="0.0">
+			</species><species id="AMP" name="AMP" compartment="uVol" initialAmount="0.0">
+			</species><species id="Acetyl_minus_CoA" name="Acetyl-CoA" compartment="uVol" initialAmount="0.0">
+			</species><species id="L_minus_Glutamate" name="L-Glutamate" compartment="uVol" initialAmount="0.0">
+			</species><species id="_space_2_minus_Oxoglutarate" name="2-Oxoglutarate" compartment="uVol" initialAmount="0.0">
+			</species><species id="H2O2" name="H2O2" compartment="uVol" initialAmount="0.0">
+			</species><species id="Acetate" name="Acetate" compartment="uVol" initialAmount="0.0">
+			</species><species id="L_minus_Aspartate" name="L-Aspartate" compartment="uVol" initialAmount="0.0">
+			</species><species id="L_minus_Arginine" name="L-Arginine" compartment="uVol" initialAmount="0.0">
+			</species><species id="L_minus_Ornithine" name="L-Ornithine" compartment="uVol" initialAmount="0.0">
+			</species><species id="H_plus_" name="H+" compartment="uVol" initialAmount="0.0">
+			</species><species id="Urea" name="Urea" compartment="uVol" initialAmount="0.0">
+			</species><species id="Fumarate" name="Fumarate" compartment="uVol" initialAmount="0.0">
+			</species><species id="Putrescine" name="Putrescine" compartment="uVol" initialAmount="0.0">
+			</species><species id="L_minus_Histidine" name="L-Histidine" compartment="uVol" initialAmount="0.0">
+			</species><species id="Carbamoyl_space_phosphate" name="Carbamoyl phosphate" compartment="uVol" initialAmount="0.0">
+			</species><species id="L_minus_Citrulline" name="L-Citrulline" compartment="uVol" initialAmount="0.0">
+			</species><species id="_space_4_minus_Aminobutanoate" name="4-Aminobutanoate" compartment="uVol" initialAmount="0.0">
+			</species><species id="N_minus_Acetylornithine" name="N-Acetylornithine" compartment="uVol" initialAmount="0.0">
+			</species><species id="_space_4_minus_Aminobutanal" name="4-Aminobutanal" compartment="uVol" initialAmount="0.0">
+			</species><species id="N_minus_Acetyl_minus_L_minus_glutamate" name="N-Acetyl-L-glutamate" compartment="uVol" initialAmount="0.0">
+			</species><species id="Homocarnosine" name="Homocarnosine" compartment="uVol" initialAmount="0.0">
+			</species><species id="Urea_minus_1_minus_carboxylate" name="Urea-1-carboxylate" compartment="uVol" initialAmount="0.0">
+			</species><species id="_space_4_minus_Guanidinobutanoate" name="4-Guanidinobutanoate" compartment="uVol" initialAmount="0.0">
+			</species><species id="L_minus_Glutamate_space_5_minus_semialdehyde" name="L-Glutamate 5-semialdehyde" compartment="uVol" initialAmount="0.0">
+			</species><species id="N_minus_Acetyl_minus_L_minus_glutamate_space_5_minus_semialdehyde" name="N-Acetyl-L-glutamate 5-semialdehyde" compartment="uVol" initialAmount="0.0">
+			</species><species id="N_minus_Acetylputrescine" name="N-Acetylputrescine" compartment="uVol" initialAmount="0.0">
+			</species><species id="_space_4_minus_Acetamidobutanoate" name="4-Acetamidobutanoate" compartment="uVol" initialAmount="0.0">
+			</species><species id="_space_4_minus_Guanidinobutanamide" name="4-Guanidinobutanamide" compartment="uVol" initialAmount="0.0">
+			</species><species id="L_minus_Glutamyl_space_5_minus_phosphate" name="L-Glutamyl 5-phosphate" compartment="uVol" initialAmount="0.0">
+			</species><species id="N_minus__space_L_minus_Arginino_space_succinate" name="N-(L-Arginino)succinate" compartment="uVol" initialAmount="0.0">
+			</species><species id="N_minus_Acetyl_minus_L_minus_glutamate_space_5_minus_phosphate" name="N-Acetyl-L-glutamate 5-phosphate" compartment="uVol" initialAmount="0.0">
+			</species><species id="N4_minus_Acetylaminobutanal" name="N4-Acetylaminobutanal" compartment="uVol" initialAmount="0.0">
+			</species></listOfSpecies><listOfReactions><reaction id="R02649" name="R02649" reversible="false"><listOfReactants><speciesReference species="ATP">
+					</speciesReference><speciesReference species="N_minus_Acetyl_minus_L_minus_glutamate">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="ADP">
+					</speciesReference><speciesReference species="N_minus_Acetyl_minus_L_minus_glutamate_space_5_minus_phosphate">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E2_space_7_space_2_space_8"/></listOfModifiers></reaction><reaction id="R01154" name="R01154" reversible="false"><listOfReactants><speciesReference species="Acetyl_minus_CoA">
+					</speciesReference><speciesReference species="Putrescine">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="CoA">
+					</speciesReference><speciesReference species="N_minus_Acetylputrescine">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E2_space_3_space_1_space_57"/></listOfModifiers></reaction><reaction id="R00131" name="R00131" reversible="false"><listOfReactants><speciesReference species="H2O">
+					</speciesReference><speciesReference species="Urea">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="CO2">
+					</speciesReference><speciesReference species="NH3">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E3_space_5_space_1_space_5"/></listOfModifiers></reaction><reaction id="R00005" name="R00005" reversible="false"><listOfReactants><speciesReference species="H2O">
+					</speciesReference><speciesReference species="Urea_minus_1_minus_carboxylate">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="CO2">
+					</speciesReference><speciesReference species="NH3">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E3_space_5_space_1_space_54"/></listOfModifiers></reaction><reaction id="R01398" name="R01398" reversible="false"><listOfReactants><speciesReference species="L_minus_Ornithine">
+					</speciesReference><speciesReference species="Carbamoyl_space_phosphate">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="Orthophosphate">
+					</speciesReference><speciesReference species="L_minus_Citrulline">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E2_space_1_space_3_space_3"/></listOfModifiers></reaction><reaction id="R01954" name="R01954" reversible="false"><listOfReactants><speciesReference species="ATP">
+					</speciesReference><speciesReference species="L_minus_Aspartate">
+					</speciesReference><speciesReference species="L_minus_Citrulline">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="Pyrophosphate">
+					</speciesReference><speciesReference species="AMP">
+					</speciesReference><speciesReference species="N_minus__space_L_minus_Arginino_space_succinate">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E6_space_3_space_4_space_5"/></listOfModifiers></reaction><reaction id="R00259" name="R00259" reversible="false"><listOfReactants><speciesReference species="Acetyl_minus_CoA">
+					</speciesReference><speciesReference species="L_minus_Glutamate">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="CoA">
+					</speciesReference><speciesReference species="N_minus_Acetyl_minus_L_minus_glutamate">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E2_space_3_space_1_space_1"/></listOfModifiers></reaction><reaction id="R00239" name="R00239" reversible="false"><listOfReactants><speciesReference species="ATP">
+					</speciesReference><speciesReference species="L_minus_Glutamate">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="ADP">
+					</speciesReference><speciesReference species="L_minus_Glutamyl_space_5_minus_phosphate">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E2_space_7_space_2_space_11"/></listOfModifiers></reaction><reaction id="R03180" name="R03180" reversible="false"><listOfReactants><speciesReference species="H2O">
+					</speciesReference><speciesReference species="_space_4_minus_Guanidinobutanamide">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="NH3">
+					</speciesReference><speciesReference species="_space_4_minus_Guanidinobutanoate">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E3_space_5_space_1_space_4"/></listOfModifiers></reaction><reaction id="R02283" name="R02283" reversible="true"><listOfReactants><speciesReference species="_space_2_minus_Oxoglutarate">
+					</speciesReference><speciesReference species="N_minus_Acetylornithine">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="L_minus_Glutamate">
+					</speciesReference><speciesReference species="N_minus_Acetyl_minus_L_minus_glutamate_space_5_minus_semialdehyde">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E2_space_6_space_1_space_11"/></listOfModifiers></reaction><reaction id="R01986" name="R01986" reversible="false"><listOfReactants><speciesReference species="H2O">
+					</speciesReference><speciesReference species="NADP_plus_">
+					</speciesReference><speciesReference species="_space_4_minus_Aminobutanal">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="NADPH">
+					</speciesReference><speciesReference species="H_plus_">
+					</speciesReference><speciesReference species="_space_4_minus_Aminobutanoate">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E1_space_2_space_1_space_3"/></listOfModifiers></reaction><reaction id="R03443" name="R03443" reversible="true"><listOfReactants><speciesReference species="NADP_plus_">
+					</speciesReference><speciesReference species="Orthophosphate">
+					</speciesReference><speciesReference species="N_minus_Acetyl_minus_L_minus_glutamate_space_5_minus_semialdehyde">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="NADPH">
+					</speciesReference><speciesReference species="H_plus_">
+					</speciesReference><speciesReference species="N_minus_Acetyl_minus_L_minus_glutamate_space_5_minus_phosphate">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E1_space_2_space_1_space_38"/></listOfModifiers></reaction><reaction id="R02549" name="R02549" reversible="false"><listOfReactants><speciesReference species="H2O">
+					</speciesReference><speciesReference species="NAD_plus_">
+					</speciesReference><speciesReference species="_space_4_minus_Aminobutanal">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="NADH">
+					</speciesReference><speciesReference species="H_plus_">
+					</speciesReference><speciesReference species="_space_4_minus_Aminobutanoate">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E1_space_2_space_1_space_19"/></listOfModifiers></reaction><reaction id="R00669" name="R00669" reversible="false"><listOfReactants><speciesReference species="H2O">
+					</speciesReference><speciesReference species="N_minus_Acetylornithine">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="Acetate">
+					</speciesReference><speciesReference species="L_minus_Ornithine">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E3_space_5_space_1_space_14"/></listOfModifiers></reaction><reaction id="R01992" name="R01992" reversible="false"><listOfReactants><speciesReference species="H2O">
+					</speciesReference><speciesReference species="Homocarnosine">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="L_minus_Histidine">
+					</speciesReference><speciesReference species="_space_4_minus_Aminobutanoate">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E3_space_4_space_13_space_3"/></listOfModifiers></reaction><reaction id="R03313" name="R03313" reversible="true"><listOfReactants><speciesReference species="NADP_plus_">
+					</speciesReference><speciesReference species="Orthophosphate">
+					</speciesReference><speciesReference species="L_minus_Glutamate_space_5_minus_semialdehyde">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="NADPH">
+					</speciesReference><speciesReference species="H_plus_">
+					</speciesReference><speciesReference species="L_minus_Glutamyl_space_5_minus_phosphate">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E1_space_2_space_1_space_41"/></listOfModifiers></reaction><reaction id="R05050" name="R05050" reversible="false"><listOfReactants><speciesReference species="H2O">
+					</speciesReference><speciesReference species="NAD_plus_">
+					</speciesReference><speciesReference species="N4_minus_Acetylaminobutanal">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="NADH">
+					</speciesReference><speciesReference species="H_plus_">
+					</speciesReference><speciesReference species="_space_4_minus_Acetamidobutanoate">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E1_space_2_space_1_space_3"/></listOfModifiers></reaction><reaction id="R02282" name="R02282" reversible="true"><listOfReactants><speciesReference species="L_minus_Glutamate">
+					</speciesReference><speciesReference species="N_minus_Acetylornithine">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="L_minus_Ornithine">
+					</speciesReference><speciesReference species="N_minus_Acetyl_minus_L_minus_glutamate">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E2_space_3_space_1_space_35"/></listOfModifiers></reaction><reaction id="R01151" name="R01151" reversible="true"><listOfReactants><speciesReference species="H2O">
+					</speciesReference><speciesReference species="Oxygen">
+					</speciesReference><speciesReference species="Putrescine">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="NH3">
+					</speciesReference><speciesReference species="H2O2">
+					</speciesReference><speciesReference species="_space_4_minus_Aminobutanal">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E1_space_4_space_3_space_6"/></listOfModifiers></reaction><reaction id="R01086" name="R01086" reversible="false"><listOfReactants><speciesReference species="N_minus__space_L_minus_Arginino_space_succinate">
+					</speciesReference></listOfReactants><listOfProducts><speciesReference species="L_minus_Arginine">
+					</speciesReference><speciesReference species="Fumarate">
+					</speciesReference></listOfProducts><listOfModifiers><modifierSpeciesReference species="E4_space_3_space_2_space_1"/></listOfModifiers></reaction></listOfReactions></model></sbml>
