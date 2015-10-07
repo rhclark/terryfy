@@ -33,3 +33,4 @@ script:
   - c++ test_prog.cpp -lsbml -lzip -lxml2 
   - ./a.out test_file.xml  out.xml
   - head out.xml
+  - python test_prog.py  test_file.xml  outy.xml
