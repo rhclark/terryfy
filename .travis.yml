@@ -21,6 +21,7 @@ install:
   - brew install libxml2
   - brew install libzip
   - brew install libsbml
+  - brew doctor
 
    
 script:
