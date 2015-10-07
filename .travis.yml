@@ -13,9 +13,10 @@ env:
 #    - INSTALL_TYPE='macpython' VERSION=3.4.1 VENV=venv
 
 install:
-  - source ./travis_tools.sh
-  - get_python_environment $INSTALL_TYPE $VERSION $VENV
+#  - source ./travis_tools.sh
+#  - get_python_environment $INSTALL_TYPE $VERSION $VENV
   - brew update
+  - brew update python
   - brew tap homebrew/science
   - brew install libxml2
   - brew install libzip
