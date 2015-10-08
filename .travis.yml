@@ -1,3 +1,7 @@
+os:
+  - linux
+  - osx
+
 language:
   - objective-c
 
@@ -33,8 +37,3 @@ script:
   - ./a.out test_file.xml  out.xml
   - head out.xml
   - /usr/local/bin/python test_prog.py  test_file.xml  outy.xml
-  - which python
-  - echo $PATH  
-  - echo $LDFLAGS  
-  - echo $LD_LIBRARY_PATH
-  - echo $DYLD_LIBRARY_PATH
