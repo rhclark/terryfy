@@ -20,7 +20,9 @@ matrix:
   exclude:
     os: osx                                          
 
-install:
+addons:
+  apt:
+    packages:
     - python-pip
     - python-dev
     - python-numpy
