@@ -3,8 +3,8 @@ os:
   - linux
 
 # language:
-#  - g++
-#  - objective-c
+#   - g++
+#   - objective-c
 
 env:
   matrix:
