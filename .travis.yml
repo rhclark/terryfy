@@ -1,9 +1,9 @@
 os:
+  - osx
   - linux
-#  - osx
 
-language:
-  - g++
+# language:
+#  - g++
 #  - objective-c
 
 env:
