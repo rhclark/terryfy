@@ -4,12 +4,12 @@ if [ "${TRAVIS_OS_NAME}" = "linux" ]; then
     echo $TRAVIS_OS_NAME
     uname -a
     
-    pip install python-pip
-    pip install python-dev
-    pip install python-numpy
-    pip install libxml2-dev
-    pip install zlib1g-dev
-    pip install libbz2-dev
+    install python-pip
+    install python-dev
+    install python-numpy
+    install libxml2-dev
+    install zlib1g-dev
+    install libbz2-dev
     pip install --user python-libsbml
 else
     echo "This should say osx"
