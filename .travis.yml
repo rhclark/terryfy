@@ -1,9 +1,10 @@
 os:
   - linux
-  - osx
+#  - osx
 
 language:
-  - objective-c
+  - g++
+#  - objective-c
 
 env:
   matrix:
