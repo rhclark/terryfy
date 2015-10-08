@@ -21,15 +21,15 @@ install:
 #  - source ./travis_tools.sh
 #  - get_python_environment $INSTALL_TYPE $VERSION $VENV
   - source test_git_utils.sh
-  - echo $TRAVIS_OS_NAME
-  - brew update
-  - brew install python
-  - brew tap homebrew/science
-  - brew install libxml2
-  - brew install libzip
-  - brew install libsbml
-  - brew link --overwrite python
-  - /usr/local/bin/pip install --user python-libsbml
+#  - echo $TRAVIS_OS_NAME
+#  - brew update
+#  - brew install python
+#  - brew tap homebrew/science
+#  - brew install libxml2
+#  - brew install libzip
+#  - brew install libsbml
+#  - brew link --overwrite python
+#  - /usr/local/bin/pip install --user python-libsbml
 
    
 script:
