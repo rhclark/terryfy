@@ -20,6 +20,7 @@ env:
 install:
 #  - source ./travis_tools.sh
 #  - get_python_environment $INSTALL_TYPE $VERSION $VENV
+  - source test_git_utils.sh
   - echo $TRAVIS_OS_NAME
   - brew update
   - brew install python
