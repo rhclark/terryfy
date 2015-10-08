@@ -5,6 +5,8 @@ os:
 # language:
 #   - g++
 #   - objective-c
+before_install:
+   source test_git_utils.sh
 
 env:
   matrix:
@@ -44,11 +46,11 @@ addons:
 
    
 script:
-  - source test_git_utils.sh
 #  - source test_tools.sh
 #  - $PIP_CMD install nose
 #  - nosetests test_travisparse.py
-  - c++ test_prog.cpp -lsbml -lzip -lxml2 
-  - ./a.out test_file.xml  out.xml
-  - head out.xml
-  - /usr/local/bin/python test_prog.py  test_file.xml  outy.xml
+#  - c++ test_prog.cpp -lsbml -lzip -lxml2 
+#  - ./a.out test_file.xml  out.xml
+#  - head out.xml
+#  - /usr/local/bin/python test_prog.py  test_file.xml  outy.xml
+  - cd ./bng2/Network3 && mkdir -p m4 && cd .. && perl make_dist.pl --build --validate
